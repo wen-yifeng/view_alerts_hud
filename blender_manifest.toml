@@ -1,0 +1,16 @@
+schema_version = "1.0.0"
+
+id = "view_alerts_hud"
+version = "2.6.2"
+name = "视图警示"
+tagline = "Shift+F2 开关视口 HUD，20 项关键状态实时监控，异常以警示色提示"
+maintainer = "一枫"
+type = "add-on"
+
+blender_version_min = "3.0.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+tags = ["User Interface", "3D View"]
