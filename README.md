@@ -1,5 +1,8 @@
 # 视图警示 (View Alerts HUD)
 
+
+[![Latest release](https://img.shields.io/github/v/release/wen-yifeng/view_alerts_hud?sort=semver)](https://github.com/wen-yifeng/view_alerts_hud/releases/latest) [![Downloads](https://img.shields.io/github/downloads/wen-yifeng/view_alerts_hud/total)](https://github.com/wen-yifeng/view_alerts_hud/releases)
+
 Blender 的很多状态藏在视图各处：物体缩放不是 1、旋转没归零（未应用变换的经典隐患），坐标系或轴心被改、X-Ray 和比例编辑开着忘关、编辑/雕刻镜像还亮着、相机导航被锁定……这些问题往往等到布尔运算出错、镜像不对称、渲染才发现原因。
 
 本插件在 3D 视图上叠加一层轻量 HUD：**`Shift+F2` 开关**，20 项关键状态实时监控。默认**只在出现异常时才浮现对应行**，并以警示色高亮——视图干净时 HUD 完全隐形，不遮挡任何操作。
@@ -31,6 +34,16 @@ Blender 的很多状态藏在视图各处：物体缩放不是 1、旋转没归�
 - **N 面板**：3D 视图 → `N` → 视图警示，全部设置与 HUD 同步
 
 ## 安装
+
+**方式一（推荐）：一键安装全部插件并自动更新**
+
+Blender → 编辑 → 偏好设置 → 获取扩展（Get Extensions）→ 右上角 ▼ → 添加远程仓库（Add Remote Repository），粘贴：
+
+```
+https://wen-yifeng.github.io/blender-extensions/index.json
+```
+
+**方式二：单独安装本插件**
 
 1. 在 [Releases](../../releases) 页面下载 `view_alerts_hud-x.x.x.zip`
 2. Blender → 编辑 → 偏好设置 → 获取扩展（Get Extensions）
